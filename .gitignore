@@ -5,7 +5,7 @@
 *.pydevproject
 .project
 .metadata
-.Plugin_Resources
+Plugin_Resources
 bin/
 tmp/
 *.tmp
