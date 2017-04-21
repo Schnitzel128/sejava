@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_qb8akM37EdqwVrslYOdUDA">
+  <elementImport xmi:id="_OCetoCAmEeeGE6FTcq9V5Q">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <elementImport xmi:id="_R4IigCZmEeee_fyWXJIXlw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_w8IxIM37EdqwVrslYOdUDA" name="DezHexKlassendiagramm">
+    <packagedElement xmi:type="uml:Class" xmi:id="_kKJk0CAlEeeGE6FTcq9V5Q" name="HexNumber">
+      <generalization xmi:id="_guM-4CZmEeee_fyWXJIXlw" general="_G_mkoCZkEeev37XUy5Pf9w"/>
+      <ownedAttribute xmi:id="_w-vRoCAlEeeGE6FTcq9V5Q" name="Property1"/>
+      <ownedOperation xmi:id="_1Rv-8CAlEeeGE6FTcq9V5Q" name="toString">
+        <ownedParameter xmi:id="_9iBlACZlEeee_fyWXJIXlw" name="return" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_AfDBsCZkEeev37XUy5Pf9w" name="DezNumber">
+      <generalization xmi:id="_fl2PsCZmEeee_fyWXJIXlw" general="_G_mkoCZkEeev37XUy5Pf9w"/>
+      <ownedOperation xmi:id="_HZTBkCZlEeev37XUy5Pf9w" name="toString">
+        <ownedParameter xmi:id="_7S-TgCZlEeee_fyWXJIXlw" name="return" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Fqd9sCZkEeev37XUy5Pf9w" name="Class1"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_G_mkoCZkEeev37XUy5Pf9w" name="Number">
+      <ownedAttribute xmi:id="_CuitMCZmEeee_fyWXJIXlw" name="value" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_U4Sg0CZmEeee_fyWXJIXlw" name="getValue">
+        <ownedParameter xmi:id="_ZOMxICZmEeee_fyWXJIXlw" name="return" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
