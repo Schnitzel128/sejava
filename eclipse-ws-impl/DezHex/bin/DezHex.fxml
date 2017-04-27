@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+
+<AnchorPane prefHeight="350.0" prefWidth="394.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111">
+   <children>
+      <Pane layoutY="-1.0" prefHeight="350.0" prefWidth="388.0">
+         <children>
+            <Button layoutX="62.0" layoutY="129.0" mnemonicParsing="false" text="Test Butto n" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
