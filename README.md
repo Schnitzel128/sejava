@@ -5,3 +5,5 @@ Dez zu Hex
 Hex zu Dez
 
 Versionierungsänderung
+
+Readme änderung 9:47
