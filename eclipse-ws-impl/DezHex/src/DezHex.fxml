@@ -5,13 +5,14 @@
 <?import javafx.scene.control.RadioButton?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="283.0" prefWidth="292.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111">
+<AnchorPane prefHeight="311.0" prefWidth="367.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Button layoutX="113.0" layoutY="219.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="105.0" text="Verwandle!">
+      <Button layoutX="201.0" layoutY="234.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="125.0" text="Verwandle!">
          <font>
             <Font name="Arial" size="14.0" />
          </font>
@@ -21,17 +22,17 @@
             <Font name="Arial" size="22.0" />
          </font>
       </Label>
-      <Label layoutX="21.0" layoutY="70.0" text="Gib eine Zahl ein:">
+      <Label layoutX="20.0" layoutY="90.0" text="Gib hier deine Zahl ein:">
          <font>
             <Font name="Arial" size="14.0" />
          </font>
       </Label>
-      <TextField layoutX="141.0" layoutY="62.0" prefHeight="33.0" prefWidth="119.0">
+      <TextField layoutX="201.0" layoutY="78.0" prefHeight="40.0" prefWidth="125.0">
          <font>
             <Font name="Arial" size="14.0" />
          </font>
       </TextField>
-      <TextField layoutX="159.0" layoutY="159.0" prefHeight="39.0" prefWidth="76.0">
+      <TextField layoutX="201.0" layoutY="158.0" prefHeight="40.0" prefWidth="125.0">
          <font>
             <Font name="Arial" size="14.0" />
          </font>
@@ -49,5 +50,10 @@
             <Font name="Arial" size="14.0" />
          </font>
       </RadioButton>
+      <ImageView fitHeight="54.0" fitWidth="79.0" layoutX="299.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../pictures/DexHex.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>
