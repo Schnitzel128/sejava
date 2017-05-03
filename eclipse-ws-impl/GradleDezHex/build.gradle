@@ -3,8 +3,9 @@ apply plugin: 'java'
 apply plugin: 'eclipse'
 
 jar {
+	version = '0.0.1'
     manifest {
-        attributes 'Main-Class': 'GradleDezHex'
+        attributes 'Main-Class': 'GradleDezHex.GradleDezHex'
     }
 }
 
