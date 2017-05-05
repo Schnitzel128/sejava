@@ -32,12 +32,12 @@
             <Font name="Arial" size="14.0" />
          </font>
       </TextField>
-      <TextField fx:id="numberoutput" layoutX="201.0" layoutY="158.0" prefHeight="40.0" prefWidth="125.0">
+      <TextField fx:id="numberoutput" editable="false" layoutX="201.0" layoutY="158.0" prefHeight="40.0" prefWidth="125.0">
          <font>
             <Font name="Arial" size="14.0" />
          </font>
       </TextField>
-      <RadioButton layoutX="24.0" layoutY="158.0" mnemonicParsing="false" selected="true" text="in Hexadezimal:">
+      <RadioButton fx:id="toHex" layoutX="24.0" layoutY="158.0" mnemonicParsing="false" selected="true" text="in Hexadezimal:">
          <font>
             <Font name="Arial" size="14.0" />
          </font>
@@ -45,7 +45,7 @@
             <ToggleGroup fx:id="ToggleGroup1" />
          </toggleGroup>
       </RadioButton>
-      <RadioButton layoutX="24.0" layoutY="183.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="102.0" text="in Dezimal:" toggleGroup="$ToggleGroup1">
+      <RadioButton fx:id="toDez" layoutX="24.0" layoutY="183.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="102.0" text="in Dezimal:" toggleGroup="$ToggleGroup1">
          <font>
             <Font name="Arial" size="14.0" />
          </font>
