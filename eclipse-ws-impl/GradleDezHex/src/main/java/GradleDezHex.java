@@ -22,6 +22,7 @@ public class GradleDezHex extends Application {
         // primaryStage is the main top level window created by platform
         primaryStage.setTitle("DezHex");
         primaryStage.setScene(scene);
+        primaryStage.setResizable(false);
         primaryStage.show();
     }
 }

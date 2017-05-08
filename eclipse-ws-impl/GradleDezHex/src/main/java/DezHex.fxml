@@ -9,6 +9,7 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
+<?import dezhextextfield.DezHexTextField?>
 
 <AnchorPane prefHeight="311.0" prefWidth="389.0" style="-fx-background-color: linear-gradient(to right,#784796, #4215EF);" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DezHexController">
    <children>
@@ -27,11 +28,11 @@
             <Font name="Comic Sans MS Bold" size="15.0" />
          </font>
       </Label>
-      <TextField fx:id="numberinput" layoutX="216.0" layoutY="58.0" prefHeight="47.0" prefWidth="125.0" promptText="Zahl">
+      <DezHexTextField fx:id="numberinput" layoutX="216.0" layoutY="58.0" prefHeight="47.0" prefWidth="125.0" promptText="Zahl">
          <font>
             <Font name="Comic Sans MS Bold" size="17.0" />
          </font>
-      </TextField>
+      </DezHexTextField>
       <TextField fx:id="numberoutput" editable="false" layoutX="216.0" layoutY="138.0" prefHeight="47.0" prefWidth="125.0">
          <font>
             <Font name="Comic Sans MS Bold" size="17.0" />
@@ -52,22 +53,22 @@
       </RadioButton>
       <ImageView fitHeight="54.0" fitWidth="79.0" layoutX="329.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../pictures/DexHex.png" />
+            <Image url="@DexHex.png" />
          </image>
       </ImageView>
-      <Button layoutX="29.0" layoutY="138.0" mnemonicParsing="false" prefHeight="7.0" prefWidth="14.0" text="?">
+      <Button layoutX="29.0" layoutY="138.0" mnemonicParsing="false" onAction="#openhelphex" prefHeight="7.0" prefWidth="14.0" style="-fx-background-color: white;" text="?">
          <font>
             <Font size="9.0" />
          </font>
       </Button>
-      <Button layoutX="29.0" layoutY="162.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="11.0" text="?">
+      <Button layoutX="29.0" layoutY="162.0" mnemonicParsing="false" onAction="#openhelpdez" prefHeight="16.0" prefWidth="11.0" style="-fx-background-color: white;" text="?">
          <font>
             <Font size="9.0" />
          </font>
       </Button>
       <ImageView fitHeight="110.0" fitWidth="174.0" layoutX="-3.0" layoutY="211.0" nodeOrientation="RIGHT_TO_LEFT" preserveRatio="true">
          <image>
-            <Image url="@../../../../../pictures/cartoondino.png" />
+            <Image url="@cartoondino.png" />
          </image>
       </ImageView>
    </children>

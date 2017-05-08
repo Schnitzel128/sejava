@@ -22,8 +22,9 @@ public class DezHexTextField extends TextField
     }
     
     private void verify() {
-        if (getText().length() > 10) {
-            setText(getText().substring(0, 10));
+        if (getText().length() > 8) {
+            setText(getText().substring(0, 8));
+            positionCaret(8);
         }
 
     }
