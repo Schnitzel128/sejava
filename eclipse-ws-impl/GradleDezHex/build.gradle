@@ -2,10 +2,19 @@ import org.gradle.plugins.ide.eclipse.model.AccessRule
 apply plugin: 'java'
 apply plugin: 'eclipse'
 
+version = '0.1.0'
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
 jar {
-	version = '0.0.1'
+	from('src/main/java') {
+	   include '**/*.fxml'
+	   include '**/*.png'
+	}
     manifest {
-        attributes 'Main-Class': 'GradleDezHex.GradleDezHex'
+        attributes 'Main-Class': 'dezhex.GradleDezHex', 
+        			'Implementation-Version': version, 
+        			'Implementation-Title': 'DezHex'
     }
 }
 
@@ -22,6 +31,7 @@ eclipse {
 
 repositories {
     jcenter()
+    mavenCentral()
 }
 dependencies {
 }

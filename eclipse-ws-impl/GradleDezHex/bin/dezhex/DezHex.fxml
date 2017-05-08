@@ -11,7 +11,7 @@
 <?import javafx.scene.text.Font?>
 <?import dezhextextfield.DezHexTextField?>
 
-<AnchorPane prefHeight="311.0" prefWidth="389.0" style="-fx-background-color: linear-gradient(to right,#784796, #4215EF);" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DezHexController">
+<AnchorPane prefHeight="311.0" prefWidth="389.0" style="-fx-background-color: linear-gradient(to right,#784796, #4215EF);" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dezhex.DezHexController">
    <children>
       <Button layoutX="216.0" layoutY="227.0" mnemonicParsing="false" onAction="#convert" prefHeight="39.0" prefWidth="125.0" style="-fx-background-color: #784796; -fx-text-fill: #3fc720;" text="Verwandle!">
          <font>
@@ -53,7 +53,7 @@
       </RadioButton>
       <ImageView fitHeight="54.0" fitWidth="79.0" layoutX="329.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@DexHex.png" />
+            <Image url="@../DexHex.png" />
          </image>
       </ImageView>
       <Button layoutX="29.0" layoutY="138.0" mnemonicParsing="false" onAction="#openhelphex" prefHeight="7.0" prefWidth="14.0" style="-fx-background-color: white;" text="?">
@@ -68,7 +68,7 @@
       </Button>
       <ImageView fitHeight="110.0" fitWidth="174.0" layoutX="-3.0" layoutY="211.0" nodeOrientation="RIGHT_TO_LEFT" preserveRatio="true">
          <image>
-            <Image url="@cartoondino.png" />
+            <Image url="@../cartoondino.png" />
          </image>
       </ImageView>
    </children>
