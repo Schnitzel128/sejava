@@ -27,3 +27,7 @@ public class GradleDezHex extends Application {
         primaryStage.show();
     }
 }
+
+/*! \class GradleDezHex
+ * The class description.
+ */
