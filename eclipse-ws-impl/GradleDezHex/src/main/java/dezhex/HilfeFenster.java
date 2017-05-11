@@ -13,14 +13,21 @@ import javafx.scene.layout.Region;
 import javafx.scene.text.Font;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
-
+/**
+ *  Klasse HilfeFenster enthaelt GUI Objekte zum Positionierung an Hauptfenster des Programms. 
+ */
 public class HilfeFenster extends Stage
 {
+	/**
+	 *  Initialisierung von GUI Objekten.
+	 */
 	Stage stage;
 	Label hilfetext = new Label("Hilfetext");
 	GridPane gp = new GridPane();
 	Button button1 = new Button("Zurück");
-	
+	/**
+	 *  Konstruktor
+	 */
 	public HilfeFenster(int auswahl)
 	{
 		stage = this;
