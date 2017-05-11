@@ -14,91 +14,313 @@
     <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_jQpJ8iAlEeeGE6FTcq9V5Q" presentation="org.topcased.modeler.uml.classdiagram">
       <element href="DezHexKlassendiagramm.uml#_w8IxIM37EdqwVrslYOdUDA"/>
     </semanticModel>
-    <contained xsi:type="di:GraphNode" xmi:id="_kKHIkCAlEeeGE6FTcq9V5Q" position="513,305" size="194,-1">
-      <anchorage xmi:id="_gt2ZkCZmEeee_fyWXJIXlw" graphEdge="_gt3AoCZmEeee_fyWXJIXlw"/>
-      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_kKHIkSAlEeeGE6FTcq9V5Q" presentation="default">
-        <element href="DezHexKlassendiagramm.uml#_kKJk0CAlEeeGE6FTcq9V5Q"/>
+    <contained xsi:type="di:GraphNode" xmi:id="_V9sKgDY8EeeUzL0u3ClY6g" position="16,16" size="347,-1">
+      <anchorage xmi:id="_e5kcMTZDEee4t5oeRHuH2g" graphEdge="_e5lDQDZDEee4t5oeRHuH2g"/>
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_V9sKgTY8EeeUzL0u3ClY6g" presentation="default">
+        <element href="DezHexKlassendiagramm.uml#_V9xDADY8EeeUzL0u3ClY6g"/>
       </semanticModel>
-      <contained xsi:type="di:GraphNode" xmi:id="_kKHIkiAlEeeGE6FTcq9V5Q">
-        <property xmi:id="_kKHIkyAlEeeGE6FTcq9V5Q" key="eStructuralFeatureID" value="37"/>
-        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_kKHIlCAlEeeGE6FTcq9V5Q" presentation="default">
-          <element href="DezHexKlassendiagramm.uml#_kKJk0CAlEeeGE6FTcq9V5Q"/>
+      <contained xsi:type="di:GraphNode" xmi:id="_V9sKgjY8EeeUzL0u3ClY6g">
+        <property xmi:id="_V9sKgzY8EeeUzL0u3ClY6g" key="eStructuralFeatureID" value="37"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_V9sKhDY8EeeUzL0u3ClY6g" presentation="default">
+          <element href="DezHexKlassendiagramm.uml#_V9xDADY8EeeUzL0u3ClY6g"/>
         </semanticModel>
       </contained>
-      <contained xsi:type="di:GraphNode" xmi:id="_kKHIlSAlEeeGE6FTcq9V5Q">
-        <property xmi:id="_kKHIliAlEeeGE6FTcq9V5Q" key="eStructuralFeatureID" value="47 50 "/>
-        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_kKHIlyAlEeeGE6FTcq9V5Q" presentation="default">
-          <element href="DezHexKlassendiagramm.uml#_kKJk0CAlEeeGE6FTcq9V5Q"/>
+      <contained xsi:type="di:GraphNode" xmi:id="_V9sKhTY8EeeUzL0u3ClY6g">
+        <property xmi:id="_V9sKhjY8EeeUzL0u3ClY6g" key="eStructuralFeatureID" value="47 50 "/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_V9sKhzY8EeeUzL0u3ClY6g" presentation="default">
+          <element href="DezHexKlassendiagramm.uml#_V9xDADY8EeeUzL0u3ClY6g"/>
         </semanticModel>
-        <contained xsi:type="di:GraphNode" xmi:id="_1RtisCAlEeeGE6FTcq9V5Q" position="0,0" size="-1,-1">
-          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_1RtisSAlEeeGE6FTcq9V5Q" presentation="default">
-            <element href="DezHexKlassendiagramm.uml#_1Rv-8CAlEeeGE6FTcq9V5Q"/>
+        <contained xsi:type="di:GraphNode" xmi:id="_slEnEDY8EeeUzL0u3ClY6g" position="0,0" size="-1,-1">
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_slEnETY8EeeUzL0u3ClY6g" presentation="default">
+            <element href="DezHexKlassendiagramm.uml#_slFOIDY8EeeUzL0u3ClY6g"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_v43TEDY8EeeUzL0u3ClY6g" position="0,0" size="-1,-1">
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_v43TETY8EeeUzL0u3ClY6g" presentation="default">
+            <element href="DezHexKlassendiagramm.uml#_v436IDY8EeeUzL0u3ClY6g"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_ypfAkDY8EeeUzL0u3ClY6g" position="0,0" size="-1,-1">
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ypfAkTY8EeeUzL0u3ClY6g" presentation="default">
+            <element href="DezHexKlassendiagramm.uml#_ypfnoDY8EeeUzL0u3ClY6g"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_zBcNkDY8EeeUzL0u3ClY6g" position="0,0" size="-1,-1">
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_zBcNkTY8EeeUzL0u3ClY6g" presentation="default">
+            <element href="DezHexKlassendiagramm.uml#_zBc0oDY8EeeUzL0u3ClY6g"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_zS6YEDY8EeeUzL0u3ClY6g" position="0,0" size="-1,-1">
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_zS6YETY8EeeUzL0u3ClY6g" presentation="default">
+            <element href="DezHexKlassendiagramm.uml#_zS6_IDY8EeeUzL0u3ClY6g"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_zk6uEDY8EeeUzL0u3ClY6g" position="0,0" size="-1,-1">
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_zk6uETY8EeeUzL0u3ClY6g" presentation="default">
+            <element href="DezHexKlassendiagramm.uml#_zk7VIDY8EeeUzL0u3ClY6g"/>
           </semanticModel>
         </contained>
       </contained>
     </contained>
-    <contained xsi:type="di:GraphNode" xmi:id="_Ae20cCZkEeev37XUy5Pf9w" position="80,308" size="210,-1">
-      <anchorage xmi:id="_flcnECZmEeee_fyWXJIXlw" graphEdge="_flgRcCZmEeee_fyWXJIXlw"/>
-      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Ae20cSZkEeev37XUy5Pf9w" presentation="default">
-        <element href="DezHexKlassendiagramm.uml#_AfDBsCZkEeev37XUy5Pf9w"/>
+    <contained xsi:type="di:GraphNode" xmi:id="_Y2s_ADY8EeeUzL0u3ClY6g" position="453,18" size="316,-1">
+      <anchorage xmi:id="_e5kcMDZDEee4t5oeRHuH2g" graphEdge="_e5lDQDZDEee4t5oeRHuH2g _lg7KsDZDEee4t5oeRHuH2g _67RzcDZDEee4t5oeRHuH2g _tVqSUDZDEee4t5oeRHuH2g"/>
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Y2s_ATY8EeeUzL0u3ClY6g" presentation="default">
+        <element href="DezHexKlassendiagramm.uml#_Y2wpYDY8EeeUzL0u3ClY6g"/>
       </semanticModel>
-      <contained xsi:type="di:GraphNode" xmi:id="_Ae20ciZkEeev37XUy5Pf9w">
-        <property xmi:id="_Ae20cyZkEeev37XUy5Pf9w" key="eStructuralFeatureID" value="37"/>
-        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Ae20dCZkEeev37XUy5Pf9w" presentation="default">
-          <element href="DezHexKlassendiagramm.uml#_AfDBsCZkEeev37XUy5Pf9w"/>
+      <contained xsi:type="di:GraphNode" xmi:id="_Y2s_AjY8EeeUzL0u3ClY6g">
+        <property xmi:id="_Y2s_AzY8EeeUzL0u3ClY6g" key="eStructuralFeatureID" value="37"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Y2s_BDY8EeeUzL0u3ClY6g" presentation="default">
+          <element href="DezHexKlassendiagramm.uml#_Y2wpYDY8EeeUzL0u3ClY6g"/>
         </semanticModel>
       </contained>
-      <contained xsi:type="di:GraphNode" xmi:id="_Ae20dSZkEeev37XUy5Pf9w">
-        <property xmi:id="_Ae20diZkEeev37XUy5Pf9w" key="eStructuralFeatureID" value="47 50 "/>
-        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Ae20dyZkEeev37XUy5Pf9w" presentation="default">
-          <element href="DezHexKlassendiagramm.uml#_AfDBsCZkEeev37XUy5Pf9w"/>
+      <contained xsi:type="di:GraphNode" xmi:id="_Y2s_BTY8EeeUzL0u3ClY6g">
+        <property xmi:id="_Y2s_BjY8EeeUzL0u3ClY6g" key="eStructuralFeatureID" value="47 50 "/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Y2s_BzY8EeeUzL0u3ClY6g" presentation="default">
+          <element href="DezHexKlassendiagramm.uml#_Y2wpYDY8EeeUzL0u3ClY6g"/>
         </semanticModel>
-        <contained xsi:type="di:GraphNode" xmi:id="_HZLs0CZlEeev37XUy5Pf9w" position="0,0" size="-1,-1">
-          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_HZLs0SZlEeev37XUy5Pf9w" presentation="default">
-            <element href="DezHexKlassendiagramm.uml#_HZTBkCZlEeev37XUy5Pf9w"/>
+        <contained xsi:type="di:GraphNode" xmi:id="_0BwbEDY8EeeUzL0u3ClY6g" position="0,0" size="-1,-1">
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_0BwbETY8EeeUzL0u3ClY6g" presentation="default">
+            <element href="DezHexKlassendiagramm.uml#_0BxCIDY8EeeUzL0u3ClY6g"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_0VvuEDY8EeeUzL0u3ClY6g" position="0,0" size="-1,-1">
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_0VvuETY8EeeUzL0u3ClY6g" presentation="default">
+            <element href="DezHexKlassendiagramm.uml#_0VwVIDY8EeeUzL0u3ClY6g"/>
           </semanticModel>
         </contained>
       </contained>
     </contained>
-    <contained xsi:type="di:GraphNode" xmi:id="_G_kIYCZkEeev37XUy5Pf9w" position="265,101" size="245,-1">
-      <anchorage xmi:id="_fldOICZmEeee_fyWXJIXlw" graphEdge="_flgRcCZmEeee_fyWXJIXlw _gt3AoCZmEeee_fyWXJIXlw"/>
-      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_G_kIYSZkEeev37XUy5Pf9w" presentation="default">
-        <element href="DezHexKlassendiagramm.uml#_G_mkoCZkEeev37XUy5Pf9w"/>
+    <contained xsi:type="di:GraphNode" xmi:id="_dXGoEDY8EeeUzL0u3ClY6g" position="19,221" size="343,-1">
+      <anchorage xmi:id="_lg3gUDZDEee4t5oeRHuH2g" graphEdge="_lg7KsDZDEee4t5oeRHuH2g _zu_L4DZDEee4t5oeRHuH2g"/>
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_dXGoETY8EeeUzL0u3ClY6g" presentation="default">
+        <element href="DezHexKlassendiagramm.uml#_dXKScDY8EeeUzL0u3ClY6g"/>
       </semanticModel>
-      <contained xsi:type="di:GraphNode" xmi:id="_G_kIYiZkEeev37XUy5Pf9w">
-        <property xmi:id="_G_kIYyZkEeev37XUy5Pf9w" key="eStructuralFeatureID" value="37"/>
-        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_G_kIZCZkEeev37XUy5Pf9w" presentation="default">
-          <element href="DezHexKlassendiagramm.uml#_G_mkoCZkEeev37XUy5Pf9w"/>
+      <contained xsi:type="di:GraphNode" xmi:id="_dXGoEjY8EeeUzL0u3ClY6g">
+        <property xmi:id="_dXGoEzY8EeeUzL0u3ClY6g" key="eStructuralFeatureID" value="37"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_dXGoFDY8EeeUzL0u3ClY6g" presentation="default">
+          <element href="DezHexKlassendiagramm.uml#_dXKScDY8EeeUzL0u3ClY6g"/>
         </semanticModel>
-        <contained xsi:type="di:GraphNode" xmi:id="_CuaxYCZmEeee_fyWXJIXlw" position="0,0" size="-1,-1">
-          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_CuaxYSZmEeee_fyWXJIXlw" presentation="default">
-            <element href="DezHexKlassendiagramm.uml#_CuitMCZmEeee_fyWXJIXlw"/>
-          </semanticModel>
-        </contained>
       </contained>
-      <contained xsi:type="di:GraphNode" xmi:id="_G_kIZSZkEeev37XUy5Pf9w">
-        <property xmi:id="_G_kIZiZkEeev37XUy5Pf9w" key="eStructuralFeatureID" value="47 50 "/>
-        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_G_kIZyZkEeev37XUy5Pf9w" presentation="default">
-          <element href="DezHexKlassendiagramm.uml#_G_mkoCZkEeev37XUy5Pf9w"/>
+      <contained xsi:type="di:GraphNode" xmi:id="_dXGoFTY8EeeUzL0u3ClY6g">
+        <property xmi:id="_dXGoFjY8EeeUzL0u3ClY6g" key="eStructuralFeatureID" value="47 50 "/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_dXGoFzY8EeeUzL0u3ClY6g" presentation="default">
+          <element href="DezHexKlassendiagramm.uml#_dXKScDY8EeeUzL0u3ClY6g"/>
         </semanticModel>
-        <contained xsi:type="di:GraphNode" xmi:id="_U4RSsCZmEeee_fyWXJIXlw" position="0,0" size="-1,-1">
-          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_U4RSsSZmEeee_fyWXJIXlw" presentation="default">
-            <element href="DezHexKlassendiagramm.uml#_U4Sg0CZmEeee_fyWXJIXlw"/>
+        <contained xsi:type="di:GraphNode" xmi:id="_1O91EDY8EeeUzL0u3ClY6g" position="0,0" size="-1,-1">
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_1O91ETY8EeeUzL0u3ClY6g" presentation="default">
+            <element href="DezHexKlassendiagramm.uml#_1O-cIDY8EeeUzL0u3ClY6g"/>
           </semanticModel>
         </contained>
       </contained>
     </contained>
-    <contained xsi:type="di:GraphEdge" xmi:id="_flgRcCZmEeee_fyWXJIXlw" anchor="_flcnECZmEeee_fyWXJIXlw _fldOICZmEeee_fyWXJIXlw">
-      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_flgRcSZmEeee_fyWXJIXlw" presentation="default">
-        <element href="DezHexKlassendiagramm.uml#_fl2PsCZmEeee_fyWXJIXlw"/>
+    <contained xsi:type="di:GraphNode" xmi:id="_hSffkDY8EeeUzL0u3ClY6g" position="455,199" size="312,-1">
+      <anchorage xmi:id="_tVprQDZDEee4t5oeRHuH2g" graphEdge="_tVqSUDZDEee4t5oeRHuH2g"/>
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_hSffkTY8EeeUzL0u3ClY6g" presentation="default">
+        <element href="DezHexKlassendiagramm.uml#_hSjJ8DY8EeeUzL0u3ClY6g"/>
       </semanticModel>
-      <contained xsi:type="di:EdgeObjectOffset" xmi:id="_flgRciZmEeee_fyWXJIXlw" id="stereotypeEdgeObject"/>
+      <contained xsi:type="di:GraphNode" xmi:id="_hSffkjY8EeeUzL0u3ClY6g">
+        <property xmi:id="_hSffkzY8EeeUzL0u3ClY6g" key="eStructuralFeatureID" value="37"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_hSfflDY8EeeUzL0u3ClY6g" presentation="default">
+          <element href="DezHexKlassendiagramm.uml#_hSjJ8DY8EeeUzL0u3ClY6g"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_0CnLIDZGEee4t5oeRHuH2g" position="0,0" size="-1,-1">
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_0CnLITZGEee4t5oeRHuH2g" presentation="default">
+            <element href="DezHexKlassendiagramm.uml#_0CpAUDZGEee4t5oeRHuH2g"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_AOaZoDZHEee4t5oeRHuH2g" position="0,0" size="-1,-1">
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_AOaZoTZHEee4t5oeRHuH2g" presentation="default">
+            <element href="DezHexKlassendiagramm.uml#_AObAsDZHEee4t5oeRHuH2g"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_FcmVwDZHEee4t5oeRHuH2g" position="0,0" size="-1,-1">
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_FcmVwTZHEee4t5oeRHuH2g" presentation="default">
+            <element href="DezHexKlassendiagramm.uml#_Fcm80DZHEee4t5oeRHuH2g"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_HkLtUDZHEee4t5oeRHuH2g" position="0,0" size="-1,-1">
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_HkLtUTZHEee4t5oeRHuH2g" presentation="default">
+            <element href="DezHexKlassendiagramm.uml#_HkMUYDZHEee4t5oeRHuH2g"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_J6VsYDZHEee4t5oeRHuH2g" position="0,0" size="-1,-1">
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_J6VsYTZHEee4t5oeRHuH2g" presentation="default">
+            <element href="DezHexKlassendiagramm.uml#_J6WTcDZHEee4t5oeRHuH2g"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_hSfflTY8EeeUzL0u3ClY6g">
+        <property xmi:id="_hSffljY8EeeUzL0u3ClY6g" key="eStructuralFeatureID" value="47 50 "/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_hSfflzY8EeeUzL0u3ClY6g" presentation="default">
+          <element href="DezHexKlassendiagramm.uml#_hSjJ8DY8EeeUzL0u3ClY6g"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_2XJlIDY8EeeUzL0u3ClY6g" position="0,0" size="-1,-1">
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_2XJlITY8EeeUzL0u3ClY6g" presentation="default">
+            <element href="DezHexKlassendiagramm.uml#_2XJlIjY8EeeUzL0u3ClY6g"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_2uLlEDY8EeeUzL0u3ClY6g" position="0,0" size="-1,-1">
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_2uLlETY8EeeUzL0u3ClY6g" presentation="default">
+            <element href="DezHexKlassendiagramm.uml#_2uMMIDY8EeeUzL0u3ClY6g"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_3IHvEDY8EeeUzL0u3ClY6g" position="0,0" size="-1,-1">
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_3IHvETY8EeeUzL0u3ClY6g" presentation="default">
+            <element href="DezHexKlassendiagramm.uml#_3IIWIDY8EeeUzL0u3ClY6g"/>
+          </semanticModel>
+        </contained>
+      </contained>
     </contained>
-    <contained xsi:type="di:GraphEdge" xmi:id="_gt3AoCZmEeee_fyWXJIXlw" anchor="_gt2ZkCZmEeee_fyWXJIXlw _fldOICZmEeee_fyWXJIXlw">
-      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_gt3AoSZmEeee_fyWXJIXlw" presentation="default">
-        <element href="DezHexKlassendiagramm.uml#_guM-4CZmEeee_fyWXJIXlw"/>
+    <contained xsi:type="di:GraphNode" xmi:id="_kdDXEDY8EeeUzL0u3ClY6g" position="28,337" size="332,-1">
+      <anchorage xmi:id="_zu-k0DZDEee4t5oeRHuH2g" graphEdge="_zu_L4DZDEee4t5oeRHuH2g"/>
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_kdDXETY8EeeUzL0u3ClY6g" presentation="default">
+        <element href="DezHexKlassendiagramm.uml#_kdHBcDY8EeeUzL0u3ClY6g"/>
       </semanticModel>
-      <contained xsi:type="di:EdgeObjectOffset" xmi:id="_gt3AoiZmEeee_fyWXJIXlw" id="stereotypeEdgeObject"/>
+      <contained xsi:type="di:GraphNode" xmi:id="_kdDXEjY8EeeUzL0u3ClY6g">
+        <property xmi:id="_kdDXEzY8EeeUzL0u3ClY6g" key="eStructuralFeatureID" value="37"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_kdDXFDY8EeeUzL0u3ClY6g" presentation="default">
+          <element href="DezHexKlassendiagramm.uml#_kdHBcDY8EeeUzL0u3ClY6g"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_kdDXFTY8EeeUzL0u3ClY6g">
+        <property xmi:id="_kdDXFjY8EeeUzL0u3ClY6g" key="eStructuralFeatureID" value="47 50 "/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_kdDXFzY8EeeUzL0u3ClY6g" presentation="default">
+          <element href="DezHexKlassendiagramm.uml#_kdHBcDY8EeeUzL0u3ClY6g"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_5YnyEDY8EeeUzL0u3ClY6g" position="0,0" size="-1,-1">
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_5YnyETY8EeeUzL0u3ClY6g" presentation="default">
+            <element href="DezHexKlassendiagramm.uml#_5YoZIDY8EeeUzL0u3ClY6g"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_6Ar3oDY8EeeUzL0u3ClY6g" position="0,0" size="-1,-1">
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_6Ar3oTY8EeeUzL0u3ClY6g" presentation="default">
+            <element href="DezHexKlassendiagramm.uml#_6AsesDY8EeeUzL0u3ClY6g"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_6TSqkDY8EeeUzL0u3ClY6g" position="0,0" size="-1,-1">
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_6TSqkTY8EeeUzL0u3ClY6g" presentation="default">
+            <element href="DezHexKlassendiagramm.uml#_6TTRoDY8EeeUzL0u3ClY6g"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_6vYJoDY8EeeUzL0u3ClY6g" position="0,0" size="-1,-1">
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_6vYJoTY8EeeUzL0u3ClY6g" presentation="default">
+            <element href="DezHexKlassendiagramm.uml#_6vYwsDY8EeeUzL0u3ClY6g"/>
+          </semanticModel>
+        </contained>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_lf4GADY8EeeUzL0u3ClY6g" position="259,448" size="100,-1">
+      <anchorage xmi:id="_3q_HYTZDEee4t5oeRHuH2g" graphEdge="_3q_ucDZDEee4t5oeRHuH2g"/>
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_lf4GATY8EeeUzL0u3ClY6g" presentation="default">
+        <element href="DezHexKlassendiagramm.uml#_lf8XcDY8EeeUzL0u3ClY6g"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_lf4GAjY8EeeUzL0u3ClY6g">
+        <property xmi:id="_lf4GAzY8EeeUzL0u3ClY6g" key="eStructuralFeatureID" value="37"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_lf4GBDY8EeeUzL0u3ClY6g" presentation="default">
+          <element href="DezHexKlassendiagramm.uml#_lf8XcDY8EeeUzL0u3ClY6g"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_lf4GBTY8EeeUzL0u3ClY6g">
+        <property xmi:id="_lf4GBjY8EeeUzL0u3ClY6g" key="eStructuralFeatureID" value="47 50 "/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_lf4GBzY8EeeUzL0u3ClY6g" presentation="default">
+          <element href="DezHexKlassendiagramm.uml#_lf8XcDY8EeeUzL0u3ClY6g"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_nXlOgDY8EeeUzL0u3ClY6g" position="453,408" size="316,-1">
+      <anchorage xmi:id="_3q_HYDZDEee4t5oeRHuH2g" graphEdge="_3q_ucDZDEee4t5oeRHuH2g _67RzcDZDEee4t5oeRHuH2g"/>
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_nXlOgTY8EeeUzL0u3ClY6g" presentation="default">
+        <element href="DezHexKlassendiagramm.uml#_nXpf8DY8EeeUzL0u3ClY6g"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_nXlOgjY8EeeUzL0u3ClY6g">
+        <property xmi:id="_nXlOgzY8EeeUzL0u3ClY6g" key="eStructuralFeatureID" value="37"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_nXlOhDY8EeeUzL0u3ClY6g" presentation="default">
+          <element href="DezHexKlassendiagramm.uml#_nXpf8DY8EeeUzL0u3ClY6g"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_nXlOhTY8EeeUzL0u3ClY6g">
+        <property xmi:id="_nXlOhjY8EeeUzL0u3ClY6g" key="eStructuralFeatureID" value="47 50 "/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_nXlOhzY8EeeUzL0u3ClY6g" presentation="default">
+          <element href="DezHexKlassendiagramm.uml#_nXpf8DY8EeeUzL0u3ClY6g"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_74OoEDY8EeeUzL0u3ClY6g" position="0,0" size="-1,-1">
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_74OoETY8EeeUzL0u3ClY6g" presentation="default">
+            <element href="DezHexKlassendiagramm.uml#_74PPIDY8EeeUzL0u3ClY6g"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_8NIhEDY8EeeUzL0u3ClY6g" position="0,0" size="-1,-1">
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_8NIhETY8EeeUzL0u3ClY6g" presentation="default">
+            <element href="DezHexKlassendiagramm.uml#_8NJIIDY8EeeUzL0u3ClY6g"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_82aHkDY8EeeUzL0u3ClY6g" position="0,0" size="-1,-1">
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_82aHkTY8EeeUzL0u3ClY6g" presentation="default">
+            <element href="DezHexKlassendiagramm.uml#_82aHkjY8EeeUzL0u3ClY6g"/>
+          </semanticModel>
+        </contained>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_e5lDQDZDEee4t5oeRHuH2g" anchor="_e5kcMDZDEee4t5oeRHuH2g _e5kcMTZDEee4t5oeRHuH2g">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_e5lDQTZDEee4t5oeRHuH2g" presentation="default">
+        <element href="DezHexKlassendiagramm.uml#_e5s_EDZDEee4t5oeRHuH2g"/>
+      </semanticModel>
+      <contained xsi:type="di:EdgeObjectOffset" xmi:id="_e5lDQjZDEee4t5oeRHuH2g" id="stereotypeEdgeObject"/>
+      <waypoints>[-277, 12, 145, -22]</waypoints>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_lg7KsDZDEee4t5oeRHuH2g" anchor="_lg3gUDZDEee4t5oeRHuH2g _e5kcMDZDEee4t5oeRHuH2g">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_lg7KsTZDEee4t5oeRHuH2g" presentation="default">
+        <element href="DezHexKlassendiagramm.uml#_lhDGgDZDEee4t5oeRHuH2g"/>
+      </semanticModel>
+      <contained xsi:type="di:EdgeObjectUV" xmi:id="_lg7KsjZDEee4t5oeRHuH2g" id="srcNameEdgeObject" uDistance="7" vDistance="19"/>
+      <contained xsi:type="di:EdgeObjectUV" xmi:id="_lg7KszZDEee4t5oeRHuH2g" id="srcPropertiesEdgeObject" uDistance="25" vDistance="10"/>
+      <contained xsi:type="di:EdgeObjectUV" xmi:id="_lg7KtDZDEee4t5oeRHuH2g" id="srcCountEdgeObject" uDistance="8"/>
+      <contained xsi:type="di:EdgeObjectUV" xmi:id="_lg7KtTZDEee4t5oeRHuH2g" id="targetNameEdgeObject" uDistance="23"/>
+      <contained xsi:type="di:EdgeObjectUV" xmi:id="_lg7KtjZDEee4t5oeRHuH2g" id="targetPropertiesEdgeObject" uDistance="25" vDistance="10"/>
+      <contained xsi:type="di:EdgeObjectUV" xmi:id="_lg7KtzZDEee4t5oeRHuH2g" id="targetCountEdgeObject" uDistance="25" vDistance="-58"/>
+      <contained xsi:type="di:EdgeObjectOffset" xmi:id="_lg7KuDZDEee4t5oeRHuH2g" visible="false" id="middleNameEdgeObject" offset="0,10"/>
+      <contained xsi:type="di:EdgeObjectOffset" xmi:id="_lg7KuTZDEee4t5oeRHuH2g" id="stereotypeEdgeObject" offset="0,-10"/>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_tVqSUDZDEee4t5oeRHuH2g" anchor="_tVprQDZDEee4t5oeRHuH2g _e5kcMDZDEee4t5oeRHuH2g">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_tVqSUTZDEee4t5oeRHuH2g" presentation="default">
+        <element href="DezHexKlassendiagramm.uml#_tVy1MDZDEee4t5oeRHuH2g"/>
+      </semanticModel>
+      <contained xsi:type="di:EdgeObjectUV" xmi:id="_tVqSUjZDEee4t5oeRHuH2g" id="srcNameEdgeObject" uDistance="10" vDistance="10"/>
+      <contained xsi:type="di:EdgeObjectUV" xmi:id="_tVqSUzZDEee4t5oeRHuH2g" id="srcPropertiesEdgeObject" uDistance="25" vDistance="10"/>
+      <contained xsi:type="di:EdgeObjectUV" xmi:id="_tVqSVDZDEee4t5oeRHuH2g" id="srcCountEdgeObject" uDistance="10" vDistance="-10"/>
+      <contained xsi:type="di:EdgeObjectUV" xmi:id="_tVqSVTZDEee4t5oeRHuH2g" id="targetNameEdgeObject" uDistance="10" vDistance="10"/>
+      <contained xsi:type="di:EdgeObjectUV" xmi:id="_tVqSVjZDEee4t5oeRHuH2g" id="targetPropertiesEdgeObject" uDistance="25" vDistance="10"/>
+      <contained xsi:type="di:EdgeObjectUV" xmi:id="_tVqSVzZDEee4t5oeRHuH2g" id="targetCountEdgeObject" uDistance="10" vDistance="-10"/>
+      <contained xsi:type="di:EdgeObjectOffset" xmi:id="_tVqSWDZDEee4t5oeRHuH2g" visible="false" id="middleNameEdgeObject" offset="88,-64"/>
+      <contained xsi:type="di:EdgeObjectOffset" xmi:id="_tVqSWTZDEee4t5oeRHuH2g" id="stereotypeEdgeObject" offset="0,-10"/>
+      <waypoints>[0, -197, 0, 34]</waypoints>
+      <waypoints>[-18, -197, -18, 34]</waypoints>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_zu_L4DZDEee4t5oeRHuH2g" anchor="_lg3gUDZDEee4t5oeRHuH2g _zu-k0DZDEee4t5oeRHuH2g">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_zu_L4TZDEee4t5oeRHuH2g" presentation="default">
+        <element href="DezHexKlassendiagramm.uml#_zvHuwDZDEee4t5oeRHuH2g"/>
+      </semanticModel>
+      <contained xsi:type="di:EdgeObjectOffset" xmi:id="_zu_L4jZDEee4t5oeRHuH2g" id="stereotypeEdgeObject"/>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_3q_ucDZDEee4t5oeRHuH2g" anchor="_3q_HYDZDEee4t5oeRHuH2g _3q_HYTZDEee4t5oeRHuH2g">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_3q_ucTZDEee4t5oeRHuH2g" presentation="default">
+        <element href="DezHexKlassendiagramm.uml#_3rIRUDZDEee4t5oeRHuH2g"/>
+      </semanticModel>
+      <contained xsi:type="di:EdgeObjectOffset" xmi:id="_3q_ucjZDEee4t5oeRHuH2g" id="stereotypeEdgeObject"/>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_67RzcDZDEee4t5oeRHuH2g" anchor="_3q_HYDZDEee4t5oeRHuH2g _e5kcMDZDEee4t5oeRHuH2g">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_67RzcTZDEee4t5oeRHuH2g" presentation="default">
+        <element href="DezHexKlassendiagramm.uml#_67a9YDZDEee4t5oeRHuH2g"/>
+      </semanticModel>
+      <contained xsi:type="di:EdgeObjectUV" xmi:id="_67RzcjZDEee4t5oeRHuH2g" id="srcNameEdgeObject" uDistance="26"/>
+      <contained xsi:type="di:EdgeObjectUV" xmi:id="_67RzczZDEee4t5oeRHuH2g" id="srcPropertiesEdgeObject" uDistance="25" vDistance="10"/>
+      <contained xsi:type="di:EdgeObjectUV" xmi:id="_67RzdDZDEee4t5oeRHuH2g" id="srcCountEdgeObject" uDistance="25" vDistance="-66"/>
+      <contained xsi:type="di:EdgeObjectUV" xmi:id="_67RzdTZDEee4t5oeRHuH2g" id="targetNameEdgeObject" uDistance="46"/>
+      <contained xsi:type="di:EdgeObjectUV" xmi:id="_67RzdjZDEee4t5oeRHuH2g" id="targetPropertiesEdgeObject" uDistance="25" vDistance="10"/>
+      <contained xsi:type="di:EdgeObjectUV" xmi:id="_67RzdzZDEee4t5oeRHuH2g" id="targetCountEdgeObject" uDistance="45" vDistance="-54"/>
+      <contained xsi:type="di:EdgeObjectOffset" xmi:id="_67RzeDZDEee4t5oeRHuH2g" visible="false" id="middleNameEdgeObject" offset="0,10"/>
+      <contained xsi:type="di:EdgeObjectOffset" xmi:id="_67RzeTZDEee4t5oeRHuH2g" id="stereotypeEdgeObject" offset="0,-10"/>
+      <waypoints>[168, -68, 168, 331]</waypoints>
+      <waypoints>[168, -337, 168, 62]</waypoints>
     </contained>
   </diagrams>
 </diagrams:Diagrams>
