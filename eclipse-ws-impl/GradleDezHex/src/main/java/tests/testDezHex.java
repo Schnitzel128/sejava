@@ -9,7 +9,7 @@ import tests.math.DezHex;
  */
 public class testDezHex {
 	/**
-	 *  Test auf Korrektheit des Konvertierung von Dezimal in Hexadezimal.
+	 *  Test der Korrektheit der Konvertierung von Dezimal in Hexadezimal.
 	 */
 	@Test
 	public void testeToHex() throws Exception{
@@ -18,7 +18,7 @@ public class testDezHex {
 		assertEquals("1a052f0e", result);
 	}
 	/**
-	 *  Test auf Korrektheit des Konvertierung von Hexadezimal in Dezimal.
+	 *  Test der Korrektheit der Konvertierung von Hexadezimal in Dezimal.
 	 */
 	@Test
 	public void testeToDez() throws Exception{
@@ -31,7 +31,7 @@ public class testDezHex {
 		assertEquals("11186171", result2);
 	}
 	/**
-	 *  Test auf Uebarlauf des Konvertierung von Dezimal nach Hexadezimal.
+	 *  Test auf Ueberlauf der Konvertierung von Dezimal nach Hexadezimal.
 	 */
 	@Test(expected=Exception.class)
 	public void testeToHexAufUeberlauf() throws Exception{
@@ -40,7 +40,7 @@ public class testDezHex {
 		String result = DezHex.toHex(zahl);
 	}
 	/**
-	 *  Test auf Uebarlauf des Konvertierung von Hexadezimal in Dezimal.
+	 *  Test auf Ueberlauf der Konvertierung von Hexadezimal in Dezimal.
 	 */
 	@Test(expected=Exception.class)
 	public void testeToDezAufUeberlauf() throws Exception{

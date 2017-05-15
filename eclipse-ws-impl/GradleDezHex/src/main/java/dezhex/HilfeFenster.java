@@ -14,7 +14,7 @@ import javafx.scene.text.Font;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 /**
- *  Klasse HilfeFenster enthaelt GUI Objekte zum Positionierung an Hauptfenster des Programms. 
+ *  Die Klasse HilfeFenster erzeugt ein neues Fenster, auf dem der Hilfetext angezeigt wird.
  */
 public class HilfeFenster extends Stage
 {
@@ -26,7 +26,7 @@ public class HilfeFenster extends Stage
 	GridPane gp = new GridPane();
 	Button button1 = new Button("Zurück");
 	/**
-	 *  Konstruktor
+	 *  Konstruktor, hier werden die nötigen Einstellungen des Hilfefensters gemacht.
 	 */
 	public HilfeFenster(int auswahl)
 	{
@@ -74,6 +74,5 @@ public class HilfeFenster extends Stage
         gp.add(hbButtons, 0, 1);
         stage.setResizable(false);
         stage.setScene(scene);
-        //stage.show();
 	}
 }

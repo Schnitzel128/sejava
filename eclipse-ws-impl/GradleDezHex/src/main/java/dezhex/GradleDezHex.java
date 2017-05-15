@@ -6,12 +6,12 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 /**
- *  Klasse GradledezHex wird von Klasse Application geerbt.
- *  Hier startet der Programm an.
+ *  Klasse GradledezHex erbt von Klasse Application
+ *  Hier startet das Programm.
  */
 public class GradleDezHex extends Application {
 	/**
-	 *  Methode main() ladet gesamte Programm an.
+	 *  Methode main() laedt das gesamte Programm.
 	 */
     public static void main(String[] args) {
         launch(args);
@@ -19,7 +19,7 @@ public class GradleDezHex extends Application {
 
     // JavaFX entry point
     /**
-	 *  Methode start() ladet alle JavaFX Elemente, baut die Scene an und fuehrt enstsprechende Einstellungen bezueglich den Frame an.
+	 *  Methode start() laedt alle JavaFX Elemente, baut die Scene auf und richtet die Einstellungen bezueglich des Frames ein.
 	 */
     @Override
     public void start(Stage primaryStage) throws Exception {
@@ -44,5 +44,5 @@ public class GradleDezHex extends Application {
 }
 
 /*! \class GradleDezHex
- * The class description.
+ * Hauptklasse. Hier wird das Programm gestartet. Klasse lädt FXML Datei und erstellt eine Scene.
  */

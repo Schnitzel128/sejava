@@ -1,10 +1,10 @@
 package tests.math;
 /**
- *  Implementierung der Konvertierungs Algorithmus von DezHexController Klasse mit eingebauten Exceptions.
+ *  Implementierung des Konvertierungs Algorithmus von der DezHexController Klasse mit eingebauten Exceptions.
  */
 public class DezHex {
 	/**
-	 *  Zahl negativ oder auserhalb der Bereich -> Exception
+	 *  Zahl negativ oder ausserhalb des Bereiches -> Exception
 	 */
 	public static String toHex(String zahl) throws Exception{
 		if(Long.parseLong(zahl)<0 || Long.parseLong(zahl)>Long.MAX_VALUE)
@@ -15,7 +15,7 @@ public class DezHex {
 		return s;		
 	}
 	/**
-	 *  Zahl auserhalb der Bereich -> Exception
+	 *  Zahl ausserhalb des Bereiches -> Exception
 	 */
 	public static String toDez(String zahl) throws Exception{
 		if(Long.valueOf(zahl,16).longValue()>Long.MAX_VALUE)
