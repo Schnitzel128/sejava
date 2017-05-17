@@ -31,7 +31,36 @@ eclipse {
 
 repositories {
     jcenter()
+    mavenLocal()
     mavenCentral()
 }
 dependencies {
-  }
+	testCompile 'junit:junit:4.12'
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ["src/main/java"]
+            include "**/*DezHex.fxml"
+            include "**/*GradleDezHex.java"
+            include "**/*DezHexController.java"
+            include "**/*DezHexTextField.java"
+            include "**/*HilfeFenster.java"
+            exclude "**/*testDezHex.java"
+        }
+    }
+    test {
+        java {
+            srcDirs = ["src/main/java"]
+            include "**/*testDezHex.java"
+            include "**/*DezHex.java"
+            exclude "**/*DezHex.fxml"
+            exclude "**/*GradleDezHex.java"
+            exclude "**/*DezHexController.java"
+            exclude "**/*DezHexTextField.java"
+            exclude "**/*HilfeFenster.java"
+            
+        }
+    }
+}
