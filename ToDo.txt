@@ -1,0 +1,4 @@
+-UMLfinal als Bild
+-Administratorendoku inkonsistent --> Desktop-Icon nicht erwähnt
+-Obfuscator evtl.
+-Aboutbutton
