@@ -30,7 +30,7 @@
         <upperBound xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RGoQgyqtEeetJMamZPqTkQ" value="*"/>
       </node>
       <node xmi:type="uml:CallBehaviorAction" xmi:id="_Wd6eQCqtEeetJMamZPqTkQ" name="a1" behavior="_WeDoMCqtEeetJMamZPqTkQ"/>
-      <node xmi:type="uml:ReadLinkAction" xmi:id="_b2P04CqtEeetJMamZPqTkQ" name="Desktop-Icon öffnen" outgoing="_N8ZTuCquEeetJMamZPqTkQ _Q6MhmCquEeetJMamZPqTkQ _R3l9-CquEeetJMamZPqTkQ" incoming="_AFzXWCquEeetJMamZPqTkQ" inPartition="_fZTSoiqyEeetJMamZPqTkQ"/>
+      <node xmi:type="uml:ReadLinkAction" xmi:id="_b2P04CqtEeetJMamZPqTkQ" name="Desktop-Icon öffnen" outgoing="_N8ZTuCquEeetJMamZPqTkQ _Q6MhmCquEeetJMamZPqTkQ _R3l9-CquEeetJMamZPqTkQ _aPJboEJQEeeO9YcnL-xwqg" incoming="_AFzXWCquEeetJMamZPqTkQ" inPartition="_fZTSoiqyEeetJMamZPqTkQ"/>
       <node xmi:type="uml:ReadLinkAction" xmi:id="_nyY2wiqtEeetJMamZPqTkQ" name="Richtung wählen" outgoing="_35zCaCqxEeetJMamZPqTkQ" incoming="_N8ZTuCquEeetJMamZPqTkQ" inPartition="_fZTSoiqyEeetJMamZPqTkQ">
         <handler xmi:id="_AYszRCqwEeetJMamZPqTkQ" exceptionInput="_0nAt4iqvEeetJMamZPqTkQ"/>
         <handler xmi:id="_Vf52hSqwEeetJMamZPqTkQ" exceptionInput="_PH7AwiqwEeetJMamZPqTkQ"/>
@@ -82,11 +82,13 @@
       <node xmi:type="uml:DataStoreNode" xmi:id="_R660wCscEeeTLMG8eUTXaQ" name="DataStoreNode2" inPartition="_fZTSoiqyEeetJMamZPqTkQ">
         <upperBound xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_R660wSscEeeTLMG8eUTXaQ" value="*"/>
       </node>
-      <node xmi:type="uml:ReadLinkAction" xmi:id="_WsiwsCscEeeTLMG8eUTXaQ" name="Zurückbutton oder Schließen drücken" outgoing="_lItfUCscEeeTLMG8eUTXaQ" incoming="_dVid8CscEeeTLMG8eUTXaQ _iG1-4CseEeeTLMG8eUTXaQ" inPartition="_fZTSoiqyEeetJMamZPqTkQ"/>
+      <node xmi:type="uml:ReadLinkAction" xmi:id="_WsiwsCscEeeTLMG8eUTXaQ" name="Zurückbutton oder Schließen drücken" outgoing="_lItfUCscEeeTLMG8eUTXaQ" incoming="_dVid8CscEeeTLMG8eUTXaQ _iG1-4CseEeeTLMG8eUTXaQ _e7xi0EJQEeeO9YcnL-xwqg" inPartition="_fZTSoiqyEeetJMamZPqTkQ"/>
       <node xmi:type="uml:ReadLinkAction" xmi:id="_aunpkCsdEeeTLMG8eUTXaQ" name="Zahl einlesen" outgoing="_KF-m4CseEeeTLMG8eUTXaQ" incoming="_JbSrICseEeeTLMG8eUTXaQ" inPartition="_fZTSoiqyEeetJMamZPqTkQ"/>
       <node xmi:type="uml:ReadLinkAction" xmi:id="_2C0akCsdEeeTLMG8eUTXaQ" name="Zahl konvertieren" outgoing="_LgXhQCseEeeTLMG8eUTXaQ" incoming="_Kjx9MCseEeeTLMG8eUTXaQ" inPartition="_fZTSoiqyEeetJMamZPqTkQ"/>
       <node xmi:type="uml:ReadLinkAction" xmi:id="_DDro0CseEeeTLMG8eUTXaQ" name="RdLinkAction1" inPartition="_fZTSoiqyEeetJMamZPqTkQ"/>
       <node xmi:type="uml:ReadLinkAction" xmi:id="_Els1MCseEeeTLMG8eUTXaQ" name="Zahl ausgeben" outgoing="_MveYsCseEeeTLMG8eUTXaQ" incoming="_LgXhQCseEeeTLMG8eUTXaQ" inPartition="_fZTSoiqyEeetJMamZPqTkQ"/>
+      <node xmi:type="uml:ReadStructuralFeatureAction" xmi:id="_EJt1kEJQEeeO9YcnL-xwqg" name="ReadStructuralFeatureAction1" inPartition="_fZTSoiqyEeetJMamZPqTkQ"/>
+      <node xmi:type="uml:ReadLinkAction" xmi:id="_I98ZkEJQEeeO9YcnL-xwqg" name="About-Button clicken" outgoing="_e7xi0EJQEeeO9YcnL-xwqg" incoming="_aPJboEJQEeeO9YcnL-xwqg" inPartition="_fZTSoiqyEeetJMamZPqTkQ"/>
       <edge xmi:type="uml:ControlFlow" xmi:id="_AFzXWCquEeetJMamZPqTkQ" name="ControlFlow1" source="_C_E8cCqsEeetJMamZPqTkQ" target="_b2P04CqtEeetJMamZPqTkQ" inPartition="_fZTSoiqyEeetJMamZPqTkQ">
         <guard xmi:type="uml:LiteralBoolean" xmi:id="_AFzXWSquEeetJMamZPqTkQ" value="true"/>
         <weight xmi:type="uml:LiteralInteger" xmi:id="_AFzXWiquEeetJMamZPqTkQ" value="1"/>
@@ -163,8 +165,16 @@
         <guard xmi:type="uml:LiteralBoolean" xmi:id="_iG1-4SseEeeTLMG8eUTXaQ" value="true"/>
         <weight xmi:type="uml:LiteralInteger" xmi:id="_iG1-4iseEeeTLMG8eUTXaQ" value="1"/>
       </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_aPJboEJQEeeO9YcnL-xwqg" name="ControlFlow16" source="_b2P04CqtEeetJMamZPqTkQ" target="_I98ZkEJQEeeO9YcnL-xwqg">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_aPJboUJQEeeO9YcnL-xwqg" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_aPJbokJQEeeO9YcnL-xwqg" value="1"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_e7xi0EJQEeeO9YcnL-xwqg" name="ControlFlow17" source="_I98ZkEJQEeeO9YcnL-xwqg" target="_WsiwsCscEeeTLMG8eUTXaQ">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_e7xi0UJQEeeO9YcnL-xwqg" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_e7xi0kJQEeeO9YcnL-xwqg" value="1"/>
+      </edge>
       <group xmi:type="uml:ActivityPartition" xmi:id="_8Cm5kCqrEeetJMamZPqTkQ" name="Anwender" node="_aG3-cCqsEeetJMamZPqTkQ _JvuUYCqtEeetJMamZPqTkQ"/>
-      <group xmi:type="uml:ActivityPartition" xmi:id="_fZTSoiqyEeetJMamZPqTkQ" name="Anwender" isDimension="true" node="_R660wCscEeeTLMG8eUTXaQ _1RZZkiqtEeetJMamZPqTkQ _nyY2wiqtEeetJMamZPqTkQ _WsiwsCscEeeTLMG8eUTXaQ _bptGUiqwEeetJMamZPqTkQ _7U00QiqwEeetJMamZPqTkQ _ulRf0iqtEeetJMamZPqTkQ _b2P04CqtEeetJMamZPqTkQ _C_E8cCqsEeetJMamZPqTkQ _aunpkCsdEeeTLMG8eUTXaQ _DDro0CseEeeTLMG8eUTXaQ _qQoTciqwEeetJMamZPqTkQ _Els1MCseEeeTLMG8eUTXaQ _2C0akCsdEeeTLMG8eUTXaQ _h2UZkiqwEeetJMamZPqTkQ _HMV00CqxEeetJMamZPqTkQ _PH7AwiqwEeetJMamZPqTkQ _0nAt4iqvEeetJMamZPqTkQ" edge="_N8ZTuCquEeetJMamZPqTkQ _Q6MhmCquEeetJMamZPqTkQ _35zCaCqxEeetJMamZPqTkQ _y2IJqSqwEeetJMamZPqTkQ _cN8w-CqyEeetJMamZPqTkQ _R3l9-CquEeetJMamZPqTkQ _Z6zpqCqyEeetJMamZPqTkQ _AFzXWCquEeetJMamZPqTkQ _KVaemCqxEeetJMamZPqTkQ"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_fZTSoiqyEeetJMamZPqTkQ" name="Anwender" isDimension="true" node="_R660wCscEeeTLMG8eUTXaQ _1RZZkiqtEeetJMamZPqTkQ _nyY2wiqtEeetJMamZPqTkQ _WsiwsCscEeeTLMG8eUTXaQ _bptGUiqwEeetJMamZPqTkQ _7U00QiqwEeetJMamZPqTkQ _ulRf0iqtEeetJMamZPqTkQ _b2P04CqtEeetJMamZPqTkQ _C_E8cCqsEeetJMamZPqTkQ _aunpkCsdEeeTLMG8eUTXaQ _DDro0CseEeeTLMG8eUTXaQ _qQoTciqwEeetJMamZPqTkQ _Els1MCseEeeTLMG8eUTXaQ _2C0akCsdEeeTLMG8eUTXaQ _h2UZkiqwEeetJMamZPqTkQ _HMV00CqxEeetJMamZPqTkQ _PH7AwiqwEeetJMamZPqTkQ _0nAt4iqvEeetJMamZPqTkQ _EJt1kEJQEeeO9YcnL-xwqg _I98ZkEJQEeeO9YcnL-xwqg" edge="_N8ZTuCquEeetJMamZPqTkQ _Q6MhmCquEeetJMamZPqTkQ _35zCaCqxEeetJMamZPqTkQ _y2IJqSqwEeetJMamZPqTkQ _cN8w-CqyEeetJMamZPqTkQ _R3l9-CquEeetJMamZPqTkQ _Z6zpqCqyEeetJMamZPqTkQ _AFzXWCquEeetJMamZPqTkQ _KVaemCqxEeetJMamZPqTkQ"/>
     </packagedElement>
   </packagedElement>
 </uml:Model>

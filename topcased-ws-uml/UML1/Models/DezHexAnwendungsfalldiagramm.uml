@@ -51,5 +51,26 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_N9KspCAiEeeGE6FTcq9V5Q" value="1"/>
       </ownedEnd>
     </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_mTYw8EJNEeeO9YcnL-xwqg" name="Abouttext ausgeben"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_xOxgcEJNEeeO9YcnL-xwqg" name="A_&lt;anwender>_&lt;abouttext ausgeben>" memberEnd="_xOxgcUJNEeeO9YcnL-xwqg _xOxgdEJNEeeO9YcnL-xwqg">
+      <ownedEnd xmi:id="_xOxgcUJNEeeO9YcnL-xwqg" name="anwender" type="_uEm_oCAhEeeGE6FTcq9V5Q" association="_xOxgcEJNEeeO9YcnL-xwqg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xOxgckJNEeeO9YcnL-xwqg" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xOxgc0JNEeeO9YcnL-xwqg" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_xOxgdEJNEeeO9YcnL-xwqg" name="abouttext ausgeben" type="_mTYw8EJNEeeO9YcnL-xwqg" association="_xOxgcEJNEeeO9YcnL-xwqg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xOxgdUJNEeeO9YcnL-xwqg" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xOxgdkJNEeeO9YcnL-xwqg" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ypcus0JNEeeO9YcnL-xwqg" name="" memberEnd="_ypcutEJNEeeO9YcnL-xwqg _ypdVwEJNEeeO9YcnL-xwqg">
+      <ownedEnd xmi:id="_ypcutEJNEeeO9YcnL-xwqg" name="anwender" type="_uEm_oCAhEeeGE6FTcq9V5Q" association="_ypcus0JNEeeO9YcnL-xwqg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ypcutUJNEeeO9YcnL-xwqg" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ypcutkJNEeeO9YcnL-xwqg" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_ypdVwEJNEeeO9YcnL-xwqg" name="abouttext ausgeben" type="_mTYw8EJNEeeO9YcnL-xwqg" association="_ypcus0JNEeeO9YcnL-xwqg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ypdVwUJNEeeO9YcnL-xwqg" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ypdVwkJNEeeO9YcnL-xwqg" value="1"/>
+      </ownedEnd>
+    </packagedElement>
   </packagedElement>
 </uml:Model>

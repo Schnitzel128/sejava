@@ -391,6 +391,27 @@
       </ownedEnd>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_VH7boDZGEee4t5oeRHuH2g" name="scene"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_YofRwEJOEeeO9YcnL-xwqg" name="AboutFenster">
+      <generalization xmi:id="_fDOEEEJPEeeO9YcnL-xwqg" general="_kdHBcDY8EeeUzL0u3ClY6g"/>
+      <ownedOperation xmi:id="_x_br4EJOEeeO9YcnL-xwqg" name="AboutFenster">
+        <ownedParameter xmi:id="_9JLAcEJOEeeO9YcnL-xwqg" name="version">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_EhEbEEJPEeeO9YcnL-xwqg" name="datum">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_T4vIoEJPEeeO9YcnL-xwqg" name="A_&lt;gradleDezHex>_&lt;aboutFenster>" memberEnd="_T4vIoUJPEeeO9YcnL-xwqg _T4vIpEJPEeeO9YcnL-xwqg">
+      <ownedEnd xmi:id="_T4vIoUJPEeeO9YcnL-xwqg" name="gradleDezHex" type="_Y2wpYDY8EeeUzL0u3ClY6g" association="_T4vIoEJPEeeO9YcnL-xwqg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_T4vIokJPEeeO9YcnL-xwqg" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_T4vIo0JPEeeO9YcnL-xwqg" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_T4vIpEJPEeeO9YcnL-xwqg" name="aboutFenster" type="_YofRwEJOEeeO9YcnL-xwqg" association="_T4vIoEJPEeeO9YcnL-xwqg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_T4vIpUJPEeeO9YcnL-xwqg" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_T4vIpkJPEeeO9YcnL-xwqg" value="1"/>
+      </ownedEnd>
+    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_DVNbMDY2EeeUzL0u3ClY6g" name="boolean"/>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_DVOCQDY2EeeUzL0u3ClY6g" name="byte"/>
