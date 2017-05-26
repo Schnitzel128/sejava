@@ -3,7 +3,7 @@ apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'application'
 
-version = '0.1.0'
+version = '0.1.1'
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 mainClassName = "dezhex.GradleDezHex"
@@ -49,6 +49,7 @@ sourceSets {
             include "**/*DezHexController.java"
             include "**/*DezHexTextField.java"
             include "**/*HilfeFenster.java"
+            include "**/*AboutFenster.java"
             exclude "**/*testDezHex.java"
         }
     }
@@ -62,6 +63,7 @@ sourceSets {
             exclude "**/*DezHexController.java"
             exclude "**/*DezHexTextField.java"
             exclude "**/*HilfeFenster.java"
+            exclude "**/*AboutFenster.java"
             
         }
     }

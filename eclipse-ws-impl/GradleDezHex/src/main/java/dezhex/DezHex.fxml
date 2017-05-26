@@ -11,7 +11,7 @@
 <?import javafx.scene.text.Font?>
 <?import dezhextextfield.DezHexTextField?>
 
-<AnchorPane prefHeight="311.0" prefWidth="389.0" style="-fx-background-color: linear-gradient(to right,#784796, #4215EF);" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dezhex.DezHexController">
+<AnchorPane prefHeight="300.0" prefWidth="350.0" style="-fx-background-color: linear-gradient(to right,#784796, #4215EF);" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dezhex.DezHexController">
    <children>
       <Button layoutX="216.0" layoutY="227.0" mnemonicParsing="false" onAction="#convert" prefHeight="39.0" prefWidth="125.0" style="-fx-background-color: #784796; -fx-text-fill: #3fc720;" text="Verwandle!">
          <font>
@@ -71,5 +71,10 @@
             <Image url="@../cartoondino.png" />
          </image>
       </ImageView>
+      <Button layoutX="247.0" layoutY="283.0" mnemonicParsing="false" onAction="#openabout" prefHeight="22.0" prefWidth="94.0" style="-fx-background-color: #784796; -fx-text-fill: #3fc720;" text="über DezHex">
+         <font>
+            <Font name="Comic Sans MS Bold" size="12.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>

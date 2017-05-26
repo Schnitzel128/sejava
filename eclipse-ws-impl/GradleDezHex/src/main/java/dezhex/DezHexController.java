@@ -28,6 +28,14 @@ public class DezHexController
 	HilfeFenster helptext2 = new HilfeFenster(1);
 	
 	/**
+	 *  About-Fenster Objekt wird erzeugt um die Version des Programms anzuzeigen
+	 *  -Erstes Attribut für die Version
+	 *  -Zweites Attribut für das Datum
+	 *  -- Beide Attribute müssen Strings sein
+	 */
+	AboutFenster about1 = new AboutFenster("0.1.1", "26.05.2017");
+	
+	/**
 	 *  Die Methode convert enthaelt die gesamte Logik fuer die Umwandlungen der Zahlen von Hexadezimal in Dezimal und von Dezimal in Hexadezimal.
 	 *  Dabei ist zu Beachten das man von Dezimal in Hexadezimal nur positive Zahlen eingeben kann und bei Hexadezimal in Dezimal sowohl positive Zahlen, als auch Buchstaben klein(gross) von a-f(A-F) eingeben kann.
 	 */
@@ -43,7 +51,7 @@ public class DezHexController
 					if(numberinput.getText().matches("[0-9]+"))
 						numberoutput.setText(Long.toHexString(Long.parseLong(numberinput.getText())));
 					else
-						numberoutput.setText("Fehler...");
+						numberoutput.setText("Bereits Hex!");
 					break;
 				case "indez":
 					numberoutput.setText(Long.toString(Long.valueOf(numberinput.getText(),16).longValue()));
@@ -56,7 +64,7 @@ public class DezHexController
 	 */
 	@FXML protected void openhelpdez(ActionEvent event) throws IOException
 	{
-		if(helptext1.isShowing() == false && helptext2.isShowing() == false)
+		if(helptext1.isShowing() == false && helptext2.isShowing() == false && about1.isShowing()==false)
 			helptext1.showAndWait();
 	}
 	/**
@@ -64,7 +72,13 @@ public class DezHexController
 	 */
 	@FXML protected void openhelphex(ActionEvent event) throws IOException
 	{	
-		if(helptext1.isShowing()==false && helptext2.isShowing()==false)
+		if(helptext1.isShowing()==false && helptext2.isShowing()==false && about1.isShowing()==false)
 			helptext2.showAndWait();
+	}
+	
+	@FXML protected void openabout(ActionEvent event) throws IOException
+	{	
+		if(helptext1.isShowing()==false && helptext2.isShowing()==false && about1.isShowing()==false)
+			about1.showAndWait();
 	}
 }
