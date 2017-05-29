@@ -1,3 +1,2 @@
-﻿-UMLfinal als Bild
--Administratorendoku inkonsistent --> Desktop-Icon nicht erwähnt
+﻿-Administratorendoku inkonsistent --> Desktop-Icon nicht erwähnt
 -Obfuscator evtl.
