@@ -2,8 +2,8 @@ package tests;
 
 import static org.junit.Assert.*;
 import org.junit.Test;
-
 import tests.math.DezHex;
+
 /**
  *  Alle Tests werden in Klasse testDezHex duerchgefuehrt.
  */
@@ -46,6 +46,23 @@ public class testDezHex {
 	public void testeToDezAufUeberlauf() throws Exception{
 		String zahl = "AAAFFBAAAAAAAAAA";
 		String result = DezHex.toDez(zahl);
+	}
+	/**
+	 * Test, ob Komponente korrekt angezeigt werden in der AboutFenster
+	 */
+	@Test
+	public void checkComponentsText() throws Exception{
+		String versionlabel = "0.1.1";
+		String datumstext = "26.05.2017";
+		String programmerslabel = "©ISM Berlin";
+		String programmerslabel1 = "Institut für Schule und Medien Berlin";
+		
+		String result[] = DezHex.AboutFenster();
+		
+		assertTrue(versionlabel.equals(result[0]));
+		assertTrue(datumstext.equals(result[1]));
+		assertTrue(programmerslabel.equals(result[2]));
+		assertTrue(programmerslabel1.equals(result[3]));
 	}
 	
 }

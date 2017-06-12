@@ -1,4 +1,11 @@
 package tests.math;
+
+import java.awt.Label;
+
+import javafx.scene.Scene;
+import javafx.scene.layout.GridPane;
+import javafx.stage.Stage;
+
 /**
  *  Implementierung des Konvertierungs Algorithmus von der DezHexController Klasse mit eingebauten Exceptions.
  */
@@ -23,5 +30,23 @@ public class DezHex {
 		String s = Long.toString(Long.valueOf(zahl,16).longValue());
 		//System.out.println(s);
 		return s;
+	}
+	/**
+	 *  Komponente AboutFenster
+	 */
+	public static String[] AboutFenster() throws Exception{
+		String[] arr = new String[4];
+		
+		Label versionlabel = new Label("0.1.1");
+		Label datumstext = new Label("26.05.2017");
+		Label programmerslabel = new Label("©ISM Berlin");
+		Label programmerslabel1 = new Label("Institut für Schule und Medien Berlin");
+		
+		arr[0] = versionlabel.getText();
+		arr[1] = datumstext.getText();
+		arr[2] = programmerslabel.getText();
+		arr[3] = programmerslabel1.getText();
+		
+		return arr;
 	}
 }
