@@ -19,7 +19,8 @@ public class GradleDezHex extends Application {
 
     // JavaFX entry point
     /**
-	 *  Methode start() laedt alle JavaFX Elemente, baut die Scene auf und richtet die Einstellungen bezueglich des Frames ein.
+	 *  Methode start() laedt alle JavaFX Elemente, baut die Scene auf und 
+	 *  richtet die Einstellungen bezueglich des Frames ein.
 	 */
     @Override
     public void start(Stage primaryStage) throws Exception {
